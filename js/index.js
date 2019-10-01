@@ -61,7 +61,7 @@ changeHeaders[0].addEventListener('mouseleave', () => {
 })
 
 changeHeaders[1].addEventListener('mouseenter', () => {
-    changeHeaders[1].textContent = `Boredom Awaits:(`;
+    changeHeaders[1].textContent = `Boredom Awaits :(`;
 })
 changeHeaders[1].addEventListener('mouseleave', () => {
     changeHeaders[1].textContent = `Adventure Awaits`
@@ -96,3 +96,5 @@ const stopNav = document.querySelector('nav');
 stopNav.addEventListener('click', (event) => {
     event.stopDefault();
 })
+
+TweenMax.to(".logo-heading", 2, {x:100, scale:0.8, color:"yellow"});
