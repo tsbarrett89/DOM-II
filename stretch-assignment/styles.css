@@ -34,3 +34,8 @@ body {
 .block--gray {
   background-color: gray;
 }
+
+.traveler {
+  background-color: black;
+  width: 75%;
+}
