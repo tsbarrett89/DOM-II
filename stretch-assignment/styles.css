@@ -13,6 +13,9 @@ body {
   width: 100px;
   height: 100px;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .block--red {
@@ -33,4 +36,11 @@ body {
 
 .block--gray {
   background-color: gray;
+}
+
+.traveler {
+  background-color: black;
+  width: 60%;
+  height: 60%;
+  align-items: center;
 }
